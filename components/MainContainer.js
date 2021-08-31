@@ -11,6 +11,7 @@ const MainContainer = ({children, keywords}) => {
             <div className="navbar">
                 <CustomLink href={'/'} text={"Home"}/>
                 <CustomLink href={'/conditionssr'} text={"conditionSSR"}/>
+                <CustomLink href={'/erroronrendering'} text={"ErrorOnRendering"}/>
                 <CustomLink href={'/about'} text={"About"}/>
             </div>
             <div>
