@@ -10,6 +10,7 @@ const MainContainer = ({children, keywords}) => {
             </Head>
             <div className="navbar">
                 <CustomLink href={'/'} text={"Home"}/>
+                <CustomLink href={'/conditionssr'} text={"conditionSSR"}/>
                 <CustomLink href={'/about'} text={"About"}/>
             </div>
             <div>
